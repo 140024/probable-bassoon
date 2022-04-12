@@ -1,16 +1,49 @@
-.row{
-    text-align: center;
+.row {
+  text-align: center;
 }
 
-.bottom-centered{
-    position: absolute;
-    /* top: 80%;
+.bottom-centered {
+  position: absolute;
+  /* top: 80%;
     left: 50%; */
-    transform: translate(-50%, -50%);
-    background-color: transparent;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
 }
 
-h3, p{
-    color: aliceblue;
-    font-size: medium;
+h3,
+p {
+  color: aliceblue;
+  font-size: medium;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  text-align: initial;
+  padding-left: 20px;
+  padding-right: 20px;
 }

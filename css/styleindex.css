@@ -1,0 +1,16 @@
+.row{
+    text-align: center;
+}
+
+.bottom-centered{
+    position: absolute;
+    /* top: 80%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+h3, p{
+    color: aliceblue;
+    font-size: medium;
+}
